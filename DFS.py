@@ -1,3 +1,5 @@
+#Time=O(V+E) || Space = O(V)
+
 class Node:
     def __init__(self,name):
         self.chilren=[]
@@ -11,3 +13,7 @@ class Node:
         for child in self.children:
             self.children.depthFirstSearch(array)
         return array
+
+
+tree=Node(A)
+tree.addChild(B)
