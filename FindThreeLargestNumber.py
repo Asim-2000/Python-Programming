@@ -17,8 +17,17 @@ def UpdateThreeLargest(ThreeLargest,num):
 
 
 def ShiftandUpdate(array,num,idx):
+    #working
+    #for i in range(2+1):
+    #if i==2:
+    #then replace last index with num 
+    #otherwise 
+    #replace index with the one ext to it
     for i in range(idx+1):
         if (i==idx):
             array[i]=num
         else:
             array[i]=array[i+1]
+
+
+print(FindThreeLargest([3,5,6,7,8,1,0]))
