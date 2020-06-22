@@ -15,5 +15,3 @@ class Node:
         return array
 
 
-tree=Node(A)
-tree.addChild(B)
