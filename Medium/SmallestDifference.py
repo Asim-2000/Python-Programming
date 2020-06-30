@@ -1,3 +1,6 @@
+#Time= O(NlogN+MlogM) where N is the len of array 1 and M is the len of array 2 
+#Space =O(1)
+
 def SmallestDifference(array1,array2):
     array1.sort()
     array2.sort()
