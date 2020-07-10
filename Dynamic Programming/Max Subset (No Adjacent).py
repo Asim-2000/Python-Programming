@@ -10,6 +10,7 @@ def maxSubsetSumNoAdjacent(array):
         maxSums[i]=max(maxSums[i-1],maxSums[i-2]+array[i])
     return maxSums[-1]
 
+# Time = O(N) | Space = O(1)
 def maxSubsetSumNoAdjacent(array):
     if not len(array):
         return
