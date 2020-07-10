@@ -1,3 +1,4 @@
+# Time = O(N) | Space = O(N)
 def maxSubsetSumNoAdjacent(array):
     if not len(array):
         return
