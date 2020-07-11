@@ -4,5 +4,8 @@ def NumberOfWaysToMakeChange(n,coins):
     for coin in coins:
         for ammount in range(1,n+1):
             if coin <= ammount:
-                
+                ways[ammount]+=ways[ammount-coin]
+    
+    return ways[n]
+    
                 
